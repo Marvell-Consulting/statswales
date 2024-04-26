@@ -43,7 +43,6 @@ stages:
         acrUsername: 'StatsWalesRegistry'
         acrPassword: '$(acr_password)'
         dockerfilePath: 'Dockerfile'
-        containerAppName: 'statswales-frontend'
         resourceGroup: 'statswales-container-app-rg'
         containerAppEnvironment: 'statswales-container-app-environment'
         targetPort: '3000'
