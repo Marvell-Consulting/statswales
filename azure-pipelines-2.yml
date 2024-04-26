@@ -44,6 +44,7 @@ stages:
         acrPassword: '$(acr_password)'
         dockerfilePath: 'Dockerfile'
         resourceGroup: 'statswales-container-app-rg'
+        containerAppName: 'statswales-develop'
         containerAppEnvironment: 'statswales-container-app-environment'
         targetPort: '3000'
         ingress: 'external'
